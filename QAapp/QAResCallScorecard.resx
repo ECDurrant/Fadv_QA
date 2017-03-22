@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>313, 22</value>
+  </metadata>
+  <data name="Label39.ToolTip" xml:space="preserve">
+    <value>"****
+A Service Request must be created within 24 hours.  If an SR is not created for the chat within this timeframe, points will be deducted for all of the below requirements on the score card.
+****
+
+• Follow up can be for other things, not only ETAs. If the agent tells the client on the call that they will follow up with them till completion of order, the follow up date section must be updated to match whatever was promised to client.
+
+• If issue is not resolved (ETA not provided, answer not provided to client, etc.) the SR must remain open and we must follow up with the client until issue has been resolved.  "</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value>• Agent verifies that the caller is the account holder or a valid contact by verifying using the Standard Authentication (see Authentication Guidelines on Confluence for more details).  
+
+The Client Fact Sheet (CFS) should be used to be sure that there are no special authentication processes in place for the client that will override the Standard Authentication.
+
+• The expectation is that the caller provides the information. The agent MUST NOT provide it to the caller.  *Failure to correctly demonstrate this behavior will result in an automatic 15 point deduction for the entire form.*</value>
+  </data>
+  <data name="Label17.ToolTip" xml:space="preserve">
+    <value>• Gain the caller’s permission to transfer, give them a brief explanation of why you are transferring the call, and place them on hold. 
+
+Call 3rd party and, when applicable, relay all necessary information to the correct individual.  Close the call (when applicable) and release the line.
+ 
+ • This also demonstrates your willingness to solve their problem and prepares the person to whom you are transferring the call.
+
+• In the event the caller requests a Supervisor, the Agent must remain professional and follow the Customer Service Escalation Process</value>
+  </data>
+  <data name="Label29.ToolTip" xml:space="preserve">
+    <value>"****
+A Service Request must be created within 24 hours.  If an SR is not created for the chat within this timeframe, points will be deducted for all of the below requirements on the score card.
+****
+
+• No further action is needed to resolve the client’s issue. 
+
+• If issue is not resolved (ETA not provided, answer not provided to client, etc.) the SR must remain open *with the follow-up date populated*, and we must follow up with the client until issue has been resolved.
+
+• If no follow-up date is set for additional action the ticket must be closed after the issue has been resolved."</value>
+  </data>
+  <data name="Label28.ToolTip" xml:space="preserve">
+    <value>"****
+A Service Request must be created within 24 hours.  If an SR is not created for the chat within this timeframe, points will be deducted for all of the below requirements on the score card.
+****
+
+• SR Information 
+• Account Information
+• Applicant name, email address and phone number
+• Summary
+• Detailed Description
+• Client ID
+• Country name if Global
+• Order ID/Specimen ID/Applicant Call Box – More Info Tab
+•Background Check Country &amp; Platform – More Info Tab
+• Authenticated Caller Tab – If unable to fully document authentication in this tab, details must be added to Detailed Description field.
+• Notes Tab (when applicable)
+• Ensure correct return address and signature template is used if an email is sent to the client "</value>
+  </data>
+  <data name="Label25.ToolTip" xml:space="preserve">
+    <value>• There should be a summary line for every Service Request.  The summary must be a brief and accurate synopsis of the reason for the call.  
+
+The Service Request must reflect the steps taken for resolution and should accurately reflect the issue that the client is experiencing.  
+
+• The Service Request should be clear and understandable to anyone who reads it.  
+
+The Detailed Description field must be specific and detailed to accurately document the actions taken as well as the answers or instructions provided to the caller. 
+
+• If handling a repeat call, Agent must attempt to locate the original SR and create a Child SR to document the additional contact from the client
+
+ / candidate and send all emails / communication from the Parent SR.  See the Handling Repeat Calls page on Confluence for instructions.</value>
+  </data>
+  <data name="Label26.ToolTip" xml:space="preserve">
+    <value>****
+A Service Request must be created within 24 hours.  If an SR is not created for the chat within this timeframe, points will be deducted for all of the below requirements on the score card.
+****
+
+• When selecting a contact in the system (if there are multiple contact records), select the contact that has the most correct information (account number, email address, telephone number).  
+
+You may then add any information to this contact that is missing (that you have obtained). 
+
+ This will eliminate creating duplicate contacts in Siebel.  Please review with your supervisor the different ways to search for contacts in Siebel.  
+
+• If the contact is the applicant
+     • The proper applicant generic contact must be used
+     • The applicant name, phone number and email address must be included in the main Service Request section
+     • The Applicant Call box in the More Info tab must be checked
+     • *Note: Service Requests must never be closed under First Name-CHANGE_MELast Name-CHANGE_ME*</value>
+  </data>
+  <data name="Label27.ToolTip" xml:space="preserve">
+    <value>****
+A Service Request must be created within 24 hours.  If an SR is not created for the chat within this timeframe, points will be deducted for all of the below requirements on the score card.
+****
+
+• The category/subcategory should reflect the issue of the call.  Reports are queried using this information.  Using the correct options in this section increases the accuracy of our reporting. 
+
+• The General Questions option should be used only if there is not a category/subcategory that fits the issue or if it is truly a General Question. 
+
+• There is a list of Categories/Subcategories available. See the Siebel Category Definitions job aid.  Please review with your supervisor if you have any questions. </value>
+  </data>
+  <data name="Label14.ToolTip" xml:space="preserve">
+    <value>• The agent is expected to avoid using internal terminology, acronyms, jargon or slang that can be confusing to the caller.  It is also the expectation that proper English be used, eliminating the use of slang. 
+     • Jargon Examples:  Avoid use of “PAID, DNP, EPP, FEMP, PEMP, etc.” Examples of slang:  “Dude.  Yep. Alrighty. Cool beans.”
+
+• Avoid Regional Terms Listed Below
+     • Bifurcate                
+     • You need to take a call on this
+     • I will do the necessary or do the needful
+     • The same
+     • Back End Team
+     • Hence
+     • Revert
+     • Request you do something
+     • Special/Relevant/Necessary/Correct/Appropriate Department/Concern Team </value>
+  </data>
+  <data name="Label22.ToolTip" xml:space="preserve">
+    <value>"• Agent should complete follow up then reach out to client with result of research within the timeline promised to caller. 
+     • Example- Expired ETA
+          • Agent emails CRRG with county, state, sub-order and applicant’s name 
+          • CRRG updates WinESP with updated ETA or close case.
+          • Agent monitors WinESP for updates
+          • After system is updated agent contacts client with results 
+
+• If an issue has not been resolved, the SR must remain upen until the answer to the question has been received, ETA received, etc.).  At that time, the Agent must follow up with client via email from SR or phone call that is documented in Siebel SR."</value>
+  </data>
+  <data name="Label23.ToolTip" xml:space="preserve">
+    <value>"• Agent reviews and verifies the information provided to the customer and future actions required by either the agent or customer.  This ensures understanding and accuracy between the customer and the agent.  It also instills confidence that the agent will resolve the issue and follow up with the caller. 
+
+• If issue is not resolved (ETA not provided, answer not provided to client, etc.) the SR must remain open and we must follow up with the client until issue has been resolved.  
+
+• To document follow up, if an email is sent regarding the Service Request, the email is required to be sent from F9 (unless sent to a team that works in Siebel.) 
+     • Copying / pasting from Outlook or a note that email was sent from Outlook is not acceptable (unless sent to a team that works in Siebel.).
+
+• A summary of follow-up items must be reviewed if follow-up is expected:
+     • Summarize the specific candidate(s).
+     • What specific information is being requested (eta)?
+     • When can the client expect to receive a follow-up?
+     • Agent must give the service request number to caller as a reference number for the call   
+===
+Example: For your records, if you have further questions, the Service Request Number for this call is 1-12345678901
+===
+
+• If no follow-up is required agent must still quickly summarize all items they've assisted with to ensure that there are no remaining items outstanding. Agent must still give the service request number to caller as a reference number for the call   
+===
+Example: For your records, if you have further questions, the Service Request Number for this call is 1-12345678901
+===
+
+     • If unable to provide a Service Request Number because Siebel is down, we can advise the client an SR number is not available due to system challenges and ask if they would like us to follow up with one later for their records. If the client wants an SR Number we can agree to email it to them once the SR is created.
+
+• In the event the call is disconnected before the issue is resolved, Agent must attempt to contact the caller via phone or email to continue the conversation, provide the answer, or resolve the issue.
+
+• If unable to provide a Service Request Number because Siebel is down, we can advise the client an SR number is not available due to system challenges and ask if they would like us to follow up with one later for their records. If the client wants an SR Number we can agree to email it to them once the SR is created."</value>
+  </data>
+  <data name="Label24.ToolTip" xml:space="preserve">
+    <value>• The agent is expected to ask the client, when applicable, if there are any other issues that they can assist with. 
+
+ This is not applicable when the caller says, “That’s all I needed”.  This helps reduce callbacks and identifies unresolved issues.</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value>"• At the end of each call, the agent should thank the customer for calling and brand the company.  This shows our appreciation for the customer’s business and leaves them with the company brand firmly in their mind.
+
+• The following must be included in the closing:
+
+===
+“Thank you for contacting First Advantage.”
+===
+
+     • Acceptable Alternates:
+          • “Thank you for calling First Advantage.""
+     • Unacceptable:
+          • “Thank you for calling""
+          • “Thank you“
+          • “Thanks! Have a great day”
+          • “Have a good one!”"</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value>• At the beginning of each call the agent should state their name, the company name and control the call by initiating the authentication process. When stating the standard greeting, it is important that this opening phrase be accompanied by a tone of voice that is both pleasant and welcoming.  Required Greeting:
+
+===
+“Thank you for calling First Advantage, my name is Nick.  May I have your first and last name, please?”
+===
+
+     • Acceptable Alternates:
+          • “Thank you for calling First Advantage, this is Nick.  May I have your full name, please?”
+
+     • Unacceptable:
+          • “Thank you for calling First Advantage, this is Nick.  Could I get your CID, please?"
+          • “Thank you for calling First Advantage, this is Nick.  How may I help you?"
+
+• “This is Mary” is an example of a incorrect opening 
+• Stating your name with a pleasant and professional tone begins to personalize the interaction. It also conveys willingness to help and a partnership in answering the questions at hand. It is important to “set the stage” by sending the message that we are here to help and interested in the customer’s reason for calling.</value>
+  </data>
+  <data name="Label20.ToolTip" xml:space="preserve">
+    <value>• The agent should ask questions and paraphrase to be sure that the issue is understood. 
+
+ Confirming the answers the caller provided shows engaged, active listening.  
+
+Asking questions will also assist the agent in resolving the correct issue. </value>
+  </data>
+  <data name="Label13.ToolTip" xml:space="preserve">
+    <value>• Agent should remain professional, respectful, sincere and energetic while speaking with caller. 
+
+     • Put yourself in your caller’s shoes.  The agent should ask themselves, if the positions were switched, would they want to speak with themselves? 
+     • Try to imagine what the customer is feeling and respond accordingly.  Using “Please”, “Thank you”, “Sir” or “Ma’am” demonstrates courtesy. 
+
+• The agent’s voice tone makes all the difference on the call.  Use a pleasant, confident tone of voice.
+
+  Sounding monotone, bored, unsure, patronizing, or condescending is not acceptable. 
+
+  Different situations require a different tone of voice from time to time such as sounding empathetic, sounding confident when delivering information, conveying a sense of urgency and sounding sincere when offering help.
+   
+• Examples: “Mr. Jones. I’ll be glad to assist.” (Said with a confident and pleasant tone of voice or “smile” in your voice)
+
+• In the event the caller displays abuse behavior or uses profanity / foul language, the Agent must remain professional and follow the Handling Abusive Callers process</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value>"• The process of researching and solving the callers concerns while keeping them informed of your steps 
+
+• Advise the caller of what actions or steps are being taken
+     • Example- “I’m looking for the order, let me reconfirm the ID is….” 
+
+• Gain caller’s permission before placing them on hold
+
+• Hold times are limited to 2 minutes; after this timeframe the agent provides an update/reason and shows appreciation for the caller’s patience.
+
+• If cumulative hold time is to exceed 5 minutes we must be present the caller with the options of continuing to hold or receiving a call back.
+
+• The agent avoids muting the caller or placing them on hold unnecessarily.  Gathered all appropriate details before placing the caller on hold to prevent placing the caller on hold multiple times "</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value>"• The ability to project understanding of urgency and seriousness of all of the caller’s concerns. We want to show that their request and concerns are as important to us as they are to them. 
+
+• Examples of empathy:
+     • I can certainly help you…
+     • I assure you I will try my best…
+     • I’m sorry for the inconvenience that you have faced.  What I can do for you is…
+     • Positive words-definitely, surely, absolutely, certainly and fantastic "</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value>"• The caller MUST be allowed to speak without interruption. 
+
+• The agent should not make assumptions about the issue that cause unnecessary interruptions or “speaking over the client”.
+
+• The caller MUST be allowed to finish their sentences even though the agent may think they know the issue/answer. If the caller interrupts, the agent should refrain from talking and let the customer complete their statement. "</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value>• Using the caller’s name personalizes the call. To successfully build rapport, the caller's name must be used at the beginning or middle of the call. It cannot be used only at the end of the call / before a transfer.</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value>"• The agent should be able to locate and determine the information that can be provided by utilizing: 
+     • F5, F7, F8, consideration codes, status codes.
+     • Drug Test, Clinic Information, Client Information and Scheduling Data using the CPScreen.net tool.
+
+• Note that we cannot provide the following:
+     • Any information on internal searches that are being conducted for an NCRF. 
+     • Specific court information 
+     • The name of the person verifying employment/education
+
+• Agent can confirm information but cannot provide information in regards to DOB, SSN, contact numbers provided, etc. 
+
+• Applicants may call in to provided Missing Information, however any other information will need to be obtained through Consumer Disclosure or the applicant may be referred to their recruiter.  The only general information that can be given to an Applicant is the “In Process” or “Complete”."</value>
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value>"• This section allows the Quality Assurance team to determine if additional training is required when navigating through applications and internal systems. 
+
+• Effective utilization and navigation improves our accessibility and makes the call more efficient for the customer "</value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value>"• Agent should follow all Client Fact Sheet instructions and internal tools (EA Admin / CustX) to ensure the information being provided falls within the guidelines of the caller, account guidelines and the user rights of the caller.  
+
+The agent will then know what type of information can be provided: overall score or details. 
+
+• Providing too much information to a caller that doesn’t have appropriate rights will result in a deduction. "</value>
+  </data>
+  <metadata name="Time.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>441, 16</value>
+  </metadata>
+  <metadata name="BackgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>507, 10</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BoHEeJ3lIF3mbaROZjlsQmZ5r
+        GXmxgSgn////Af///wH///8B////Af///wH///8B////Af///wGhcBITl2MQo4tXEPuFXDn/dEQV/4BN
+        E/+BTQ//mWws+YhXFqGebhYT////Af///wH///8B////Af///wGlcxIRj1wNval9NP+AThb/gFAg/4dY
+        Iv+kfkr/c0MR/3tNF/98Txj/mHI9vbaLMxH///8B////Af///wH///8BpXQijZZkH/+ldRz/dEQd/4VV
+        IP90QhL/eU0p/5FwWP9sRDD/f1k//04nEP+FVhWP////Af///wH///8BqngSE5JbEvONWBP/gk8T/3pQ
+        OP+EW0H/cEIp/2w7Ff99TyT/oYBj/2o8Gv9GIA//b0MX9bqLGxP///8B////AZFbDFOPVQf/ajkV/4Ja
+        Qv+AV0D/dUIa/557Xv9mOyX/bT4a/5ptJf9wRyv/WDEd/3BNOv+hcSBT////Af///wGwiVNnlFsV/28+
+        Hf+OWRf/dEEX/3tEDv9gMhH/YD8v/7mih/+zjCv/mnA5/4pfMf9aLhf/pHMPZ////wH///8BlV4IZZth
+        D/+RYCX/vJZD/5FeD/92QRX/j18k/7ilmP+ymHr/xKp3/5RnIv+LXBj/ZTgV/6t7EmX///8B////Aa18
+        GjurexH/j1oJ/49WBf+PVQr/oXEx/7SNV/+efGD/sZR2/8apcf+TZR//qIZa/3NDFf+vgBo7////Af//
+        /wHFlx4DsYc42ZdoJP+TXQ//uI4t/7ODE/+dZBf/fE8y/6iMd/+idjv/mWw2/35MFP+VaCzXyJsbA///
+        /wH///8B////AbeJH1OzhBT5qHcU/6x/Lv+7jx7/vJNW/41hQv92STX/cD8h/3tTQf90RBf5qX4uVf//
+        /wH///8B////Af///wHFlx4DvZAhb6t5EfemdRr/rHYg/5xfF/+LVCf/jFUg/4tUDP+VaTX3q3wab8ib
+        GwP///8B////Af///wH///8B////Af///wG9kCFFtYchv5xnFf+XXBD/tIMf/7F9Hv+vfha/sIEiRf//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHEmDQVv5ElNcaZJTXJnSoV////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AW4+FgmSYxszrX0ZSYRREE2WYw9NpHMYSap6JTOreyUJ////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AbaGGB+abCB7cUAYz3tKFd2baRPlnGoR5YZSD+WLWQ/lmWYR3Z9uHs+wgSx7tIMYH///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Aal4HS2fbRSVn2sP74FOEv98TiX/bUAd/3RFFP+ATRP/eUYQ/3tIDv99SQz/iVYZ/7KP
+        X/+UaDPrkmIZj5dnGC3///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AcWXHgWfbhJFlmIRyZBZCv+QWAn/f00X/6+Pbf99VTf/YTQV/3xKF/+IWB//gk4N/4BM
+        Df99SQv/j1wN/45cE/9+ThX/iVgUyZxrFkXFlx4F////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wHFlx4Fnm4UU4xZDteRXQ//oW8b/5JeD/9+TRn/lGo+/3lJHv9uPhT/pn5C/8Kk
+        d/+Zayn/iFUO/3lGD/+EUQ7/nGkR/5JiE/+KWhP/pHcs18+wbFPFlx4F////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AaNwETmXZBDNhlEJ/buWT/+4lFf/f04a/3A+Ff96SBL/eEUR/3dE
+        Ev+QYSH/sI9h/4VZJv9wQBL/XDAV/1csFP93TCn/ek8o/1kwE/9tRyX9q4hZzbWKNTn///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wGodREfqHYWuZRiGf+QWw3/uZA4/6JyGf93RBP/cD8Z/31L
+        Ev95Rw//eUYQ/249E/9hMxj/fFU7/5h6Zv+BXEL/XDMi/5h7av+3nof/Yzwo/0YhDv9hNhT/h1YVuaJy
+        Fh////8B////Af///wH///8B////Af///wH///8B////AZxnD2OneDT5nXFE/5hkE/+ldA//k2AP/28+
+        Fv97TzL/mG8+/4RUIf92RBL/c0EU/3hHF/+OZTz/qY95/4NcPv9cLxj/XjMe/3dOMv9qPR3/RiAR/0ok
+        D/93SBX5nGsVbf///wH///8B////Af///wH///8B////Af///wHFlx4JkVkJz51sLv+VZjX/jlkM/45Z
+        CP99SQ7/bD0i/5VzXv+tjnL/d0kp/2o5Gf9nNhv/azoW/3VDEv93SiL/cEAZ/5RvUf9tOxX/bj0V/24+
+        Ff9NJRP/Qx8O/180FP+RYRPZxZceCf///wH///8B////Af///wH///8B////Aad0EUGMUgX9jVQJ/4lR
+        Cf+JUAT/fUcL/4BSKv92TDP/cEQt/4hhS/9lNR3/dkoz/3hPOv9bLRn/c0AU/3hFEf+VbUX/0b6q/7KW
+        ff9vRCb/XTAX/0ojEf88Ggr/TSUS/4VXIv25ihtB////Af///wH///8B////Af///wH///8BkFoMiZBV
+        B/+OVAX/e0YN/2U2Gf9pPSf/qYx3/7GWgv9vQiv/ZzYb/3BAIf+TbVH/wamV/4dkUv9qORb/c0ES/3I/
+        FP+NYCz/mXJH/10wFf9YLx//TCQT/zwaC/9GIBD/qY94/6h7KYn///8B////Af///wH///8B////Af//
+        /wGRWwu9klcI/41TCP9sOxT/XC8b/2k6Iv+OZ0j/fFE3/2Q0Hf90QBT/h1QW/4pfMf+ZemH/VCkV/1Qo
+        GP9hNyf/b0Ac/6JzEv+gbxD/dkga/5Z1Xf+AWDr/Vy4d/1AmF/+AXkr/nGoavf///wH///8B////Af//
+        /wH///8B////AaFyNM2hbCX/iE8N/2Y2F/9lNRf/fUcP/4ZPDv90QRn/ZTQd/3M+FP+ETAf/YjMQ/0wm
+        GP9AHQ//WDQi/56FdP+0l2//u5Mi/6+EGP+PYiL/uZtz/7WWZ/9sPxv/UykX/2AzF/+fbQ/N////Af//
+        /wH///8B////Af///wH///8BwKBzzZpgFP+MUQ3/cj4Y/4BQLf+fbir/mGIT/4VQD/9yPxb/bToY/4ZO
+        Bv99Rwj/VSkU/103JP+Kc2b/1Me7/7+mgP+7mEL/qYAw/4xcHP+TZzL/lmgv/3E/Ev9VKhb/YjQW/6p5
+        EM3///8B////Af///wH///8B////Af///wGSWwfNmV0O/5NXDv98RhX/p4Nh/9nDlf+5jyj/pHQP/4NO
+        Df9rOBr/gkoL/4pRBP96TSj/wbCm/491Zv+tlHv/sJRw/7eabf+jfkn/kmYq/4VUE/+OXA//dEIT/1Qp
+        Ff9wQRT/qnoQzf///wH///8B////Af///wH///8B////AZhhCcGeZQ//o2wQ/5NeDf+OWBH/tIxB/6p5
+        D/+ibg3/fEcU/205G/9/ShT/j1YJ/6qGWv/azsb/t6CN/6+Tdf++por/6Ny//860av+kfTf/lWYV/6x/
+        GP9/Uyf/VCkV/3tLFP+sfRTB////Af///wH///8B////Af///wH///8BpHERk6p4EP+yghL/oW8N/4pT
+        Bv+QWQb/lFwH/5NYB/+FTBH/hk0T/5pqMf+qfUH/qX5F/6WHcP+hgWj/sJNy/7+miP/l1rb/0rdo/6F5
+        Nf+QYRT/zLJ3/6CBZf9jNxv/f04T/6x8GpP///8B////Af///wH///8B////Af///wG9jylXsYIS/6Bv
+        EP+LWAv/hk8H/4lRA/+NUwX/kVYH/5VZC/+jbRf/w6Bq/9C3lP+tgUH/lWxI/5x6X/+nh2j/rpFz/7eW
+        ZP+rgkH/lmck/4RQD/+iflH/kGY5/3VDFP92QxP/tYYZV////wH///8B////Af///wH///8B////AcWX
+        HguygyHlpX5K/6J5R/+GUQv/iFAF/5NcCv+odhP/tIYT/7aJFP+pdhD/pG8o/5lhF/+EVzL/gl5J/5Ry
+        W//DsKD/sIxd/51sKf+UYyH/hFAO/31KDP98ShD/fk0b/5BgGOPImxsL////Af///wH///8B////Af//
+        /wH///8B////AbyQJ4O2j0T7nHAx/5dkDf+TXQn/nGwk/8WkW//AmTP/uYsV/7KCFP+fZg//mFwN/3pG
+        Hf9vRC7/jmlR/7ylkf+gczr/nGwr/7qcdv+QYzH/eEQO/4ZYJv+ifE37sYYugf///wH///8B////Af//
+        /wH///8B////Af///wH///8BvpEiJ7GCG8mpeRP/s4QS/6p5D/+baiD/uZZi/8CYOP+5ixX/uo0c/7OD
+        Mf+lbSb/hEwa/2s/Lv9pOyX/d0kv/3VCGP9/UjH/kW9e/3FGL/9jNBb/gFEh/6Z8OMm7kTAr////Af//
+        /wH///8B////Af///wH///8B////Af///wHDlSkFv5MoW7qLGuW3iBP/t4gT/6VzEP+RXA7/pnQQ/7mM
+        Fv/CmTH/3MWT/76Ybf+SXS3/tJyT/41pXP9rOSP/ZzUd/2QzH/9nOSb/hGBR/2c3Ff+JVhDlqHkWW72O
+        GgX///8B////Af///wH///8B////Af///wH///8B////Af///wHFlx4HwJMoa7uMGuetfBH/o28N/6Bs
+        DP+aZhD/sH4Z/6duE/+hZhj/kVce/3xCGf97SS//ekku/3xEFv+CSQ//gUkL/6eEYP+LZEL/o3IU566A
+        F2vImxsH////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wHFlx4HwZUqZbiJ
+        Gtumcw//oW0M/7yUQv+3iED/omUV/6BiFf+dXxP/klYY/6FvO/+gbC7/mF0N/5tkC/+QWQn/hVIU/5xt
+        Gtu5iydl0KdUB////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BwZUqS7uNHa+wgBXzsYQp/6x8KP+dYxD/k1YS/5tcFP+qchj/vpI9/7KBM/+mbRL/rHoQ/6Vz
+        EfOrexyvt4orS////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wHFmCkDwpUmGcGUIle9jyWvnGkR/41WCv+PVQr/omsR/7KAE/+2hxb/tYIX/7WE
+        Gv+7jiKvt4cgV7uNKxnEmkMD////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHKnz0Lw5cySb2QLWfAkh1nw5UeZ8mc
+        LWfJnClJyp4uC////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>
